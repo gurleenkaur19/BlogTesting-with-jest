@@ -1,6 +1,6 @@
 "use client";
 
-import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeProvider } from "../components/theme-provider";
 import { SessionProvider } from "next-auth/react";
 
 const ClientProviders: React.FC<{ children: React.ReactNode }> = ({
